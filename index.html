@@ -1,132 +1,100 @@
-<!doctype html>
-<html lang="pt-br" data-bs-theme="dark">
-
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio - Bruno Santos</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Bruno Marcilio Santos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+    <header>
+        <div class="container">
+            <h1>Bruno Marcilio Santos</h1>
+            <p>Desenvolvedor | Programador | Front End | Back End</p>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <section id="sobre" class="container">
+        <h2>Sobre Mim</h2>
+        <p>Sou um Desenvolvedor em busca de oportunidade para a área de Desenvolvimento Web. Tenho experiência em contribuir no desenvolvimento de projetos, garantindo o alinhamento com as últimas tendências e ferramentas do setor. Tenho vivência na utilização de linguagens de programação como HTML, CSS, JavaScript, React, Node.js, Git e TypeScript, promovendo o desenvolvimento de projetos, aplicativos, sistemas web e softwares personalizados atuando como Back End e Front End. Possuo habilidades em compreender as necessidades dos usuários e clientes, aplicando soluções eficientes.</p>
+    </section>
 
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./assets/logo.png" width="60px">
-      </a>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Habilidades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contatos</a>
-          </li>
+    <section id="habilidades" class="container">
+        <h2>Habilidades</h2>
+        <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>TypeScript</li>
+            <li>Git</li>
+            <li>Kotlin</li>
+            <li>Tailwind CSS</li>
+            <li>PL/SQL</li>
+            <li>Oracle Apex</li>
+            <li>Python</li>
+            <li>Power BI</li>
         </ul>
-      </div>
-    </div>
-  </nav>
+    </section>
 
-  <section class="d-flex align-items-center vh-100 vw-100" 
-          style="background-image: url('https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
-          background-position: center;">
-    <div class="container text-center text-white " >
-      <h1>Bruno Santos - Desenvolvedor Full Stack</h1>
-      <p class="fs-4" >Contrate um Dev</p>
-    </div>
-  </section>
-
-  <section class="py-5 vw-100 " >
-    <div class="container text-center">
-
-      <h2 class="text-center mt-3 mb-3" >Minhas Habilidades</h2>
-
-      <div class="row align-items-start">
-
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/js.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">JavaScript</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+    <section id="projetos" class="container">
+        <h2>Projetos</h2>
+        <div class="projeto">
+            <h3>Aplicativo de Registro de Pedidos</h3>
+            <p>Projeto de registro de pedidos desenvolvido com React que navega entre páginas utilizando o React Router DOM e utiliza os React Hooks. Além disso, os pedidos são salvos em uma API back-end utilizando Node.js.</p>
+            <a href="https://github.com/BrunoMSantos04?tab=repositories" target="_blank">Ver no GitHub</a>
         </div>
-
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/react.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">React</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+        <div class="projeto">
+            <h3>Lista de tarefas</h3>
+            <p>Lista de Tarefas simples e prática com React. A aplicação adiciona uma tarefa, deleta, marca como completa e possibilita a alteração de alguma tarefa já adicionada. Utilizei os React Hooks junto a funções do JavaScript (map, filter) O projeto conta com responsividade para dispositivos móveis</p>
+            <a href="https://github.com/BrunoMSantos04/todolist" target="_blank">Ver no GitHub</a>
         </div>
+    </section>
 
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/html.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">HTML</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+    <section id="experiencia" class="container">
+        <h2>Experiência Profissional</h2>
+        <div class="experiencia">
+            <h3>FREELANCER – Maio/2023 - Presente</h3>
+            <h4>Desenvolvedor Full Stack</h4>
+            <p>Como desenvolvedor full stack freelancer, acumulei experiência abrangente em uma variedade de áreas cruciais para o desenvolvimento de software. Isso inclui o desenvolvimento e manutenção de interfaces responsivas, a criação de sites dinâmicos utilizando JavaScript, a integração de banco de dados em sistemas web, e o desenvolvimento de aplicações utilizando a biblioteca React. Além disso, tenho experiência com banco de dados para gerenciamento de dados e na criação de aplicações full stack, com foco no consumo eficiente de APIs para funcionalidades completas e interativas.</p>
         </div>
-
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/css.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">CSS</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+        <div class="experiencia">
+            <h3>ITPOWER BR – Abril/2024 - Junho/2024</h3>
+            <h4>Analista de Suporte</h4>
+            <p>Experiência na realização de atendimento ao cliente. Atendimento de chamados técnicos, manutenção das aplicações de redes e desenvolvimento de aplicações e sistemas.</p>
         </div>
+    </section>
 
-      </div>
-    </div>
-  </section>
+    <section id="formacao" class="container">
+        <h2>Formação Acadêmica</h2>
+        <p>Análise e Desenvolvimento de Sistemas – Instituto Federal de São Paulo (IFSP). Março 2022 - Presente (até Dez 2024)</p>
+        <h2>Cursos</h2>
+        <p>Programação em Desenvolvimento Web FullStack pela DevClub, 2023.</p>
+    </section>
 
-  <section class="py-5 vw-100" >
-    
-    <h2 class="container text-center mb-5 " >Entre em contato</h2>
+    <section id="contato" class="container">
+        <h2>Contato</h2>
+        <p>Telefone: (16) 99636-8807</p>
+        <p>Email: <a href="mailto:marciliosantosbruno@gmail.com">marciliosantosbruno@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/bruno-marcilio-santos" target="_blank">Bruno Marcilio Santos</a></p>
+        <p>GitHub: <a href="https://github.com/BrunoMSantos04" target="_blank">BrunoMSantos04</a></p>
+    </section>
 
-    <form class="container w-25" >
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Endereço de email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-        <div id="emailHelp" class="form-text">Seu endereço de email nunca será compartilhado com ninguém</div>
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
-  </section>
+    <footer>
+        <p>&copy; 2024 Bruno Marcilio Santos. Todos os direitos reservados.</p>
+    </footer>
 
-  <footer class="bg-light vw-100 py-1" >
-    <p class="container text-center text-black" >Bruno Santos - Feito com muito AMOR 💜</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
 </body>
-
 </html>
